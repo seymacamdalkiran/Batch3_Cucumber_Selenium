@@ -8,6 +8,7 @@ Feature: Login
   #       3. ...
   #       4. ...
 
+  @parallel
   Scenario: Login as Mike
     Given The user is on the login page
     When The user enters valid credentials that belongs to Mike

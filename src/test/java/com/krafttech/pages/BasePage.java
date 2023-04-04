@@ -32,7 +32,8 @@ public abstract class BasePage {
 
     public void navigateToModule(String tab, String module) {
         Driver.get().findElement(By.xpath("//span[.='"+tab+"']")).click();
-        Driver.get().findElement(By.xpath("//span[.='"+tab+"']/../../ul/li[.='"+module+"']")).click();
+        Driver.get().findElement(By.xpath("//span[.='My Profile']")).click();
+      //  Driver.get().findElement(By.xpath("//span[.='"+tab+"']/../../ul/li[.='"+module+"']")).click();
     }
 
     public String getAccountName(String accountName){

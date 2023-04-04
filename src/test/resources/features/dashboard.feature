@@ -10,7 +10,7 @@ Feature: Dashboard checks
     |Forms     |
     |JavaScript|
     |test      |
-
+  @parallel
     @cucumberMap
     Scenario: Example-2 for Cucumber Map
       Given The user is on the login page
