@@ -3,7 +3,6 @@ package com.krafttech.steps_defs;
 import com.github.javafaker.Faker;
 import com.krafttech.pages.EditProfilePage;
 import com.krafttech.utilities.BrowserUtils;
-import com.krafttech.utilities.Driver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;

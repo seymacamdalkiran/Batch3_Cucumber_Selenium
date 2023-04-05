@@ -3,7 +3,6 @@ package com.krafttech.steps_defs;
 import com.krafttech.pages.DashboardPage;
 import com.krafttech.pages.LoginPage;
 import com.krafttech.utilities.ConfigurationReader;
-import com.krafttech.utilities.Driver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
