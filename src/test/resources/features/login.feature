@@ -19,7 +19,7 @@ Feature: Login
     Given The user is on the login page
     When The user enters valid credentials that belongs to John
     Then The user should be able to login
-
+@grid
   Scenario: Login as Test
     Given The user is on the login page
     When The user enters valid credentials that belongs to Test

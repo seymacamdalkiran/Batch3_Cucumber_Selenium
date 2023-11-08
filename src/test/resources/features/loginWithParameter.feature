@@ -8,7 +8,7 @@ Feature: Log in as different user
     When The user logs in using "mike@gmail.com" and "mike1234"
     Then The user should be able to login
     And The user name should be "mike"
-
+@parallel
   Scenario: Log in as john with parameter
     When The user logs in using "john@gmail.com" and "John1234."
     Then The user should be able to login

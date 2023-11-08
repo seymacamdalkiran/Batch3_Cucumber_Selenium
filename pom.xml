@@ -64,8 +64,9 @@
                     <includes>
                         <include>**/*CukesRunner.java</include>
                         <include>**/*FailedTestRunner.java</include>
-                  <!--      <rerunFailingTestsCount>1</rerunFailingTestsCount>  -->
+                  <!--       -->
                     </includes>
+                    <rerunFailingTestsCount>1</rerunFailingTestsCount>
                 </configuration>
             </plugin>
 
